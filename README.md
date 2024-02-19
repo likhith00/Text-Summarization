@@ -38,7 +38,6 @@ This repository contains code for finetuning the google/t5-small on a text summa
 
 Here's the provided data formatted into a tabular format:
 
-```
 | Training Loss | Epoch | Step | Validation Loss | Rouge1 | Rouge2 | RougeL | RougeLSum | Gen Len |
 |---------------|-------|------|-----------------|--------|--------|--------|------------|---------|
 | No log        | 1.0   | 63   | 2.1165          | 0.338  | 0.1186 | 0.2811 | 0.2813     | 16.7595 |
@@ -51,7 +50,6 @@ Here's the provided data formatted into a tabular format:
 | 2.2452        | 8.0   | 504  | 1.9324          | 0.3754 | 0.1451 | 0.3098 | 0.3099     | 16.1893 |
 | 2.2452        | 9.0   | 567  | 1.9302          | 0.3769 | 0.1459 | 0.3112 | 0.3113     | 16.1966 |
 | 2.2452        | 10.0  | 630  | 1.9294          | 0.3772 | 0.1453 | 0.3105 | 0.3106     | 16.1832 |
-```
 
 Each row represents a different step or epoch, and the corresponding values are placed under their respective columns.
 
